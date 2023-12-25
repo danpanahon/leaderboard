@@ -1,0 +1,128 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../images/parallax1.jpg);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #1b243d;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: center;
+    color: #1b243d;
+    text-transform: uppercase;
+}
+
+#content {
+    margin: 0 auto 20px;
+    max-width: 560px;
+    padding: 15px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    min-height: 20px;
+    padding: 19px;
+}
+ 
+.columns {   
+    -moz-column-width: 265px;
+    -webkit-column-width: 265px;
+    column-width: 265px;
+}
+
+.columns ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.columns ul li {
+    margin-bottom: 5px;
+    width: 250px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.green-btn {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.green-btn:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+
+.gray-btn:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+
+.gray-btn {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: #c9302c !important;
+    border-color: #ac2925 !important;
+    color: #fff !important;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+
+@media (max-width: 767px) {
+  #content {
+    max-width: 275px;
+  }
+}
